@@ -5,5 +5,5 @@
 ## Take a look
 
 ```link
-‏ https://laythalqadhi.github.io/landing-page/
+https://laythalqadhi.github.io/landing-page/
 ```
