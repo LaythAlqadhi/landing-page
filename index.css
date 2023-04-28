@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+:root{
+    --dark: #1F2937;
+    --white: #F9FAF8;
+    --link: #E5E7EB;
+    --btn: #3882F6;
+    --quote: #E5E7EB;
+}
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: var(--dark);
+}
+
+.navbar {
+    background-color: var(--dark);
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+
+.navbar h1{
+    color: var(--white);
+    margin-top: 25px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.nav ul li {
+    display: flex;
+    Justify-content: space-between;    
+    color: var(--white);
+    font-size: 1.125rem;
+    padding-left: 1rem;
+    margin-top: -30px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: extra-bold;
+}
+
+.hero p {
+    font-size: 1.125rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.hero button{
+    background-color: var(--btn);
+    font-size: 1.125rem;
+    color: var(--white);
+    padding: 7px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.image {
+    width: 500px;
+    height: 240px;
+    background-color: #F9FAF850;
+    color: var(--white);
+    font-size: 1.125rem;
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    display: flex;
+    Justify-content: space-between;
+    padding: 100px 0;
+}
+
+.info {
+    background-color: var(--white);
+}
+
+.info h1{
+    font-weight: extra-bold;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.imgs {
+    display: flex;
+    Justify-content: center;
+}
+
+.img {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    margin: 0 25px 100px 25px;
+}
+.img img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--btn);
+    border-radius: 10px;
+}
+.caption {
+    display: block;
+}
+
+.quote-container {
+    background-color: var(--quote);
+    padding: 100px 0;
+}
+
+.quote {
+    width: calc(100% - 300px);
+    margin: 0 auto;
+}
+
+.quote h1{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote h2{
+    font-size: 1rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: extra-bold;
+    padding-right: 20px;
+}
+
+.call-to-action-container {
+    background-color: var(--white);
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: var(--btn);
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 100px;
+    border-radius: 5px;
+}
+
+.text-call-to-action {
+    width: 70%;
+    padding-right: 100px;
+}
+
+.call-to-action h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.call-to-action p {
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.call-to-action button {
+    border: 2px solid var(--white);
+    font-size: 1rem;
+    color: var(--white);
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: var(--btn)
+    width: 30%;
+}
+
+.footer {
+    color: var(--white);
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
